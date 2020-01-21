@@ -31,3 +31,14 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 # Restart-Computer
+
+# Install whatever distro is required from the Microsoft store.
+# http://aka.ms/wslstore
+
+# Set default version of WSL to 2
+wsl --set-default-version 2
+
+# Verify that WSL is version 2
+wsl -l -v
+
+
