@@ -1,3 +1,5 @@
+# Make sure you run this from an elevated shell
+
 # By pass execution policy and install chocolatey
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -25,6 +27,7 @@ choco install -y dotnetcore-sdk
 
 # WSL 2 installation
 # https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-
-
+# Restart-Computer
