@@ -41,4 +41,7 @@ wsl --set-default-version 2
 # Verify that WSL is version 2
 wsl -l -v
 
+# windows terminal preview
+choco install -y microsoft-windows-terminal
+
 
