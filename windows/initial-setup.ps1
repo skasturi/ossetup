@@ -2,7 +2,7 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install -y --force microsoft-edge-insider
+choco install -y microsoft-edge-insider
 
 choco install -y git.install
 
