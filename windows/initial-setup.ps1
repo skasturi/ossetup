@@ -23,5 +23,8 @@ choco install -y anaconda3
 # From .NET Foundation
 choco install -y dotnetcore-sdk
 
+# WSL 2 installation
+# https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
+
 
 
