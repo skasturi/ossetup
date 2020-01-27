@@ -45,5 +45,5 @@ wsl -l -v
 choco install -y microsoft-windows-terminal
 
 # Power shell core
-choco install powershell-core
+choco install -y powershell-core
 
